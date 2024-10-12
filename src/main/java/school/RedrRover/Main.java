@@ -1,5 +1,7 @@
 package school.RedrRover;
 
+import org.apache.commons.lang3.StringUtils;
+
 public class Main {
 
     public static String padTest(int count, String str) {
@@ -12,5 +14,7 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("He" + padTest(5, "d") + "o world!");
+        String str = StringUtils.leftPad("", 5, "ttt");
+        System.out.println("My" + str + " test");
     }
 }
