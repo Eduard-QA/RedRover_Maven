@@ -14,6 +14,7 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("He" + padTest(3, "d") + "o world!");
+
         String str = StringUtils.leftPad("", 5, "ttt");
         System.out.println("My" + str + " test");
     }
